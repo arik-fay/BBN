@@ -1,0 +1,17 @@
+.topology{
+    height: 100%;
+    width: 100%;
+}
+
+#topology_Container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}   
+
+.drag-box {
+    padding: 1rem;
+    background: white;
+    width: 100%;
+    cursor: move;
+  } 

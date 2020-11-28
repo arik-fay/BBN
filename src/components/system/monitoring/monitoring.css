@@ -1,0 +1,40 @@
+#monitoring{
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+    gap: 0.4rem 0.4rem;
+    grid-template-areas:
+      "list_area device_details device_details device_details device_details device_details"
+      "list_area device_statistics device_statistics device_statistics device_statistics device_statistics"
+      "list_area device_statistics device_statistics device_statistics device_statistics device_statistics"
+      "list_area device_statistics device_statistics device_statistics device_statistics device_statistics";
+  }
+  
+.list_area { 
+    grid-area: list_area;
+    background-color: #e7e9ee;
+}
+  
+.device_details { 
+    grid-area: device_details;
+}
+  
+.device_statistics { 
+    grid-area: device_statistics;
+}
+  
+.grid_devices_style {
+    border-radius: 0.25rem;
+    border: 0.05rem solid #949494;
+    background-color: rgba(255, 255, 255, 0.747);
+    box-shadow: 0.12rem 0.12rem rgb(187, 195, 202);
+    padding: 0.1rem;
+}

@@ -1,0 +1,216 @@
+
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2{
+    font-size: 1.5rem;
+  }
+  
+  h3{
+    font-size: 1rem;
+  }
+  
+  p{
+    font-size: 1rem;
+  }
+  title{
+    font-size: 1rem;
+  }
+  input{
+    font-size: 1rem;
+  }
+  #input_value{
+    font-size: 1rem;
+  }
+  button{
+    font-size: 1rem;
+  }
+  svg{
+    font-size: 1rem;
+  }
+  li{
+    font-size: 1rem;
+  }
+  .ant-tree{
+    font-size: 0.6rem !important;
+  }
+  .anticon svg{
+    font-size: 1.1rem;
+  }
+  #router_image {
+    height: 3rem;
+ }
+.ant-progress-text {
+  font-size: 1.1rem !important;
+ } 
+
+}
+
+@media screen and (max-width: 1650px) and (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2{
+    font-size: 2.5rem;
+  }
+  
+  h3{
+    font-size: 1rem;
+  }
+  
+  p{
+    font-size: 1.5rem;
+  }
+  title{
+    font-size: 1rem;
+  }
+  input{
+    font-size: 1rem;
+  }
+  #input_value{
+    font-size: 1rem;
+  }
+  button{
+    font-size: 1rem;
+  }
+  svg{
+    font-size: 1rem;
+  }
+  li{
+    font-size: 1rem;
+  }
+  .ant-tree{
+    font-size: 0.7rem !important;
+  }
+  .anticon svg{
+    font-size: 1.1rem;
+  }
+  #router_image {
+    height: 3.2rem;
+}
+.ant-progress-text {
+  font-size: 1.2rem !important;
+ } 
+}
+
+@media screen and (max-width: 1830px) and (min-width: 1650px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+  
+  h2{
+    font-size: 2.7rem;
+  }
+  
+  h3{
+    font-size: 2.2rem;
+  }
+  
+  p{
+    font-size: 1.7rem;
+  }
+  title{
+    font-size: 1.5rem;
+  }
+  input{
+    font-size: 1.5rem;
+  }
+  #input_value{
+    font-size: 1.5rem;
+  }
+  button{
+    font-size: 1.5rem;
+  }
+  svg{
+    font-size: 1.5rem;
+  }
+  li{
+    font-size: 1.5rem;
+  }
+  .ant-tree{
+    font-size: 0.8rem !important;
+  }
+  .anticon svg{
+    font-size: 1.5rem;
+  }
+  #router_image {
+    height: 3.5rem;
+}
+.ant-progress-text {
+  font-size: 1.3rem !important;
+ } 
+
+}
+
+
+
+@media screen and (min-width: 1830px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  
+  h2{
+    font-size: 3rem;
+  }
+  
+  h3{
+    font-size: 2rem;
+  }
+  
+  p{
+    font-size: 1.5rem;
+  }
+  title{
+    font-size: 1.5rem;
+  }
+  input{
+    font-size: 1.5rem;
+  }
+  #input_value{
+    font-size: 1.5rem;
+  }
+  button{
+    font-size: 1.5rem;
+  }
+  svg{
+    font-size: 1.5rem;
+  }
+  li{
+    font-size: 2.2rem;
+  }
+  .ant-tree{
+    font-size: 1.5rem !important;
+  }
+  .anticon svg{
+    font-size: 1.6rem;
+  }
+  #router_image {
+    height: 5rem;
+ }
+.ant-progress-text {
+  font-size: 1.6rem !important;
+ } 
+}
+
+
+

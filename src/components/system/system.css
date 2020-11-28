@@ -1,0 +1,58 @@
+#system{
+    height: 100vh;
+    width: 100%;
+    background:  url(../../accessories/background\ system.png);    
+    background-size: cover;
+    position: relative;
+}
+
+#menu{
+    height: 8%;
+}
+
+#system_container{
+    height: 92%;
+    width: 100%;
+    padding: 0rem 1rem 1rem 1rem;
+
+}
+
+#system_content{
+    height: 100%;
+    background-color: #ecf1f5e1;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    height: 100%;
+    margin-right:1.5rem
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    /* background-color: #dbe7f1; */
+    height: 100%;
+    color: rgba(31, 30, 32, 0.719);
+  }
+
+  #menu_tab{
+      display: contents;
+  }
+  

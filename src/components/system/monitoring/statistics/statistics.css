@@ -1,0 +1,96 @@
+#statistics{
+    height: 100%;
+    width: 100%;
+}
+
+#statistics_container {
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #edeff0c4;
+    display: grid;
+    grid-template-rows:  51vh 60vh;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 2fr 1fr 1fr 1fr; */
+    gap: 1rem 1rem;
+    grid-template-areas:
+      "ospf_neighbors  bgp_neighbors"
+      "topology  topology"
+      ;
+  }
+
+/* width */
+  #statistics_container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  #statistics_container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  #statistics_container::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  #statistics_container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+.ospf_neighbors { 
+    grid-area: ospf_neighbors;
+}
+  
+.bgp_neighbors { 
+    grid-area: bgp_neighbors;
+}
+
+.topology { 
+    grid-area: topology;
+}
+
+.details_windows{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+#neighbor{
+    text-align: center;
+    text-decoration: underline;
+    height: 10%;
+}
+  
+ul#neighbors_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 90%;
+    /* grid-template-rows: repeat(6, 1fr); */
+    text-align: center;
+    overflow-y: auto;
+}
+
+/* width */
+#neighbors_list::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  #neighbors_list::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  #neighbors_list::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  #neighbors_list::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

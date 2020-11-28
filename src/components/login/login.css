@@ -1,0 +1,84 @@
+#login{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#login_container {
+    position: fixed;
+    bottom: 0;
+    background: #13456a87;
+    color: #f1f1f1;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    right: 0;
+    
+}
+
+#form{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 25vh;
+}
+
+#input_container{
+    display: flex;
+    height: 5vh;
+    margin-bottom: 1rem;
+}
+
+title {
+    display: block;
+    width: 30%;
+    top: 50%;
+    position: relative;
+    transform: translateY(-40%);
+}
+
+#sumbit_button{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 23%;
+    cursor: pointer;
+    background: #13456a87;
+    border-color: #13446ace;
+}
+
+#login_btn{
+    color: white;
+}
+
+
+#sumbit_button:hover, #sumbit_button:focus {
+    width: 25%;
+    background: #13446a60;
+    border-color: #13446a70;
+}
+
+/* antd design change */
+
+.ant-input-affix-wrapper{
+    width: 60%;
+    height: 100%;
+}
+
+.ant-tree {
+    background: none !important;
+    font-weight: bold ;
+    background-color: none !important ;
+}
